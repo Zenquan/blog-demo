@@ -7,31 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <script>
-        var xiaoming = (function(){
-            var xiaomingjia = function(message){
-                this.menling = message;
-            }
-            var men;
-            var info = {
-                sendMessage: function(message){
-                    if(!men){
-                        men = new xiaomingjia(message);
-                    }
-
-                    return men;
+<script>
+    var xiaoming = (function(){
+        var xiaomingjia = function(message){
+            this.melling = message;
+        }
+        var men;
+        var info = {
+            sendMessage: function(message){
+                if(!men){
+                    men = new xiaomingjia(message);
                 }
-            }
-
-            return info;
-        })();
-        var xiaowang = {
-            callXiaoming: function(msg){
-                var _xw = new xiaoming.sendMessage(msg);
-                alert(_xw.menling);
+                return men;
             }
         }
-        xiaowang.callXiaoming('didi');
-    </script>
+        return info;
+    })()
+    var xiaowang = {
+        callXiaoming: function(mes){
+            var _xw = new xiaoming.sendMessage(mes);
+            alert(_xw.melling);
+            _xw = null;
+        }
+    }
+    xiaowang.callXiaoming('didi');
+</script>
 </body>
 </html>
