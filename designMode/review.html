@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn1">点击</button>
+    <script>
+        var top = {
+            init: function(a){
+                this.render(a);
+                this.bind;
+            },
+            b: 4,
+            render: function(a){
+                var _this = this;
+                _this.btna = document.getElementById(a);
+            },
+            bind: function(){
+                var _this = this;
+                _this.btna.addEventListener('click', function(){
+                    _this.test();
+                })
+            },
+            test: function(){
+                var _this = this;
+                b: 5
+                alert(_this.b)
+            }
+        }
+       top.init('btn1');
+       top.bind();
+    </script>
+</body>
+</html>
