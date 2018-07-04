@@ -25,7 +25,6 @@
 
     window.Big = Big;
 
-    window.
 
-})
+ })
 )
