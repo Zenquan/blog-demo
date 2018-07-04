@@ -1,7 +1,7 @@
 # Promise
 
 ### promiseES6
-```
+```JavaScript
 var Promise = require('../src/promiseES6.js');
 
 Promise.all([
@@ -18,7 +18,7 @@ Promise.all([
 
 ### promise
 
-```
+```JavaScript
 var Promise = new Promise((resolve, reject)=>{
     setTimeout(resolve, 100, 'foo');
 });
@@ -36,7 +36,7 @@ Promise.all([
 
 #### 测试代码
 
-```
+```JavaScript
 // 目前是通过他测试 他会测试一个对象
 // 语法糖
 Promise.defer = Promise.deferred = function () {
@@ -50,7 +50,7 @@ Promise.defer = Promise.deferred = function () {
 module.exports = Promise;
 ```
 #### 测试
-```
+```JavaScript
 git clone xxx
 cd promise
 npm install
