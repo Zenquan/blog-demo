@@ -14,6 +14,8 @@
 
 ## 2018年07月
 
+[学习HTTP（转）](https://github.com/Zenquan/blog/issues/14)
+
 [从AST编译解析谈到写babel插件](https://github.com/Zenquan/blog/issues/13) 
 
 [关于js判断数据类型方法](https://github.com/Zenquan/blog/issues/12)
