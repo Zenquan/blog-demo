@@ -21,7 +21,10 @@
 [从AST编译解析谈到写babel插件](https://github.com/Zenquan/blog/issues/13) 
 
 [关于js判断数据类型方法](https://github.com/Zenquan/blog/issues/12)
+
 ## 2018年06月
+
+[Promise的那些事儿](https://github.com/Zenquan/blog/issues/11)
 
 [css3动画优化（转载）](https://github.com/Zenquan/blog/issues/10)
 
